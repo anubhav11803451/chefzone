@@ -26,7 +26,10 @@ class FavouriteScreen extends StatelessWidget {
                   title: Text(_.favmeals[index].name),
                   leading: Image.network(_.favmeals[index].thumb),
                   trailing: IconButton(
-                    icon: Icon(Icons.favorite_border),
+                    icon: Icon(
+                      Icons.favorite,
+                      color: Colors.red,
+                    ),
                     onPressed: () {
                       Database().deleteFav(_.favmeals[index].favmealId,
                           Get.find<AuthController>().user.uid);

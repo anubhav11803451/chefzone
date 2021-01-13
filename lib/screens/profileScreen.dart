@@ -8,14 +8,21 @@ class ProfileScreen extends GetWidget<AuthController> {
 
   @override
   Widget build(BuildContext context) {
-    var userobs = Get.find<UserController>().obs.value;
     return Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           GetX<UserController>(
             init: UserController(),
-            builder: (_) => Text(_.user.name),
+            builder: (_) {
+              if (_.user.name != null) {
+                return Text(_.user.name);
+              } else {
+                return Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+            },
           ),
           IconButton(
             icon: Icon(Icons.arrow_back),

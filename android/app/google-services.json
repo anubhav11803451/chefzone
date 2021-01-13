@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "154581546553",
+    "project_id": "chefzone-61977",
+    "storage_bucket": "chefzone-61977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154581546553:android:22870be63cc90afe013fe8",
+        "android_client_info": {
+          "package_name": "com.example.chefzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154581546553-qmpfrbei2rk6i6vau5mvb43hteerkf6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chefzone",
+            "certificate_hash": "673b8ffdbd0147dc60df2096aaa4bb7f106fdcfd"
+          }
+        },
+        {
+          "client_id": "154581546553-levi7eq7l6m9ls7h696jaao5f2rkivnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3h_s4BgVx5nM-Ftcl_eTxebKtUT1vM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154581546553-levi7eq7l6m9ls7h696jaao5f2rkivnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
